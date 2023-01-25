@@ -55,11 +55,11 @@ export default {
         !navbarSm ? 'flex' : 'hidden',
       ]"
     >
-      <a href="#habilidades" class="cursor-pointer">Habilidades</a>
-      <a href="#projetos" class="cursor-pointer">Projeto</a>
-      <a href="#" class="cursor-pointer">Começo</a>
-      <a href="#sobremim" class="cursor-pointer">Sobre mim</a>
-      <a href="#objetivos" class="cursor-pointer">Objetivos</a>
+      <a href="#habilidades" class="cursor-pointer item-menu">Habilidades</a>
+      <a href="#projetos" class="cursor-pointer item-menu">Projeto</a>
+      <a href="#" class="cursor-pointer item-menu">Começo</a>
+      <a href="#sobremim" class="cursor-pointer item-menu">Sobre mim</a>
+      <a href="#objetivos" class="cursor-pointer item-menu">Objetivos</a>
 
       <div class="flex cursor-pointer gap-3 float-right">
         <a href="https://github.com/Pedro-HenriqueDev" target="_blank"><i class="block text-3xl devicon-github-original"></i></a>
@@ -76,17 +76,17 @@ export default {
         <nav class="navbar-sm flex flex-col items-center pt-18" v-show="navSm">
           <div
             class="w-full h-14 flex justify-end items-center mr-5">
-            <div class="w-full flex flex-col text-center gap-8 mt-80 p-10">
-              <div>
-                <a href="#habilidades" class="cursor-pointer">Habilidades</a>
+            <div class="w-full flex flex-col items-center text-center gap-8 mt-80 p-10">
+              <div class="w-1/2">
+                <a href="#habilidades" class="item-menu cursor-pointer">Habilidades</a>
               </div>
-              <div><a href="#projetos" class="cursor-pointer">Projeto</a></div>
-              <div><a href="#" class="cursor-pointer">Começo</a></div>
-              <div>
-                <a href="#sobremim" class="cursor-pointer">Sobre mim</a>
+              <div class="w-1/2"><a href="#projetos" class="item-menu cursor-pointer">Projeto</a></div>
+              <div class="w-1/2"><a href="#" class="item-menu cursor-pointer">Começo</a></div>
+              <div class="w-1/2">
+                <a href="#sobremim" class="item-menu cursor-pointer">Sobre mim</a>
               </div>
-              <div>
-                <a href="#objetivos" class="cursor-pointer">Objetivos</a>
+              <div class="w-1/2">
+                <a href="#objetivos" class="item-menu cursor-pointer">Objetivos</a>
               </div>
 
               <div
@@ -104,6 +104,27 @@ export default {
 </template>
 
 <style scoped>
+.item-menu {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+.item-menu::after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 0%;
+  height: 3px;
+  border-radius: 5px;
+  background: #fff;
+  transition: all 250ms;
+}
+.item-menu:hover::after {
+  content: '';
+  width: 100%;
+}
+
 .fade-enter-active {
   transition: all 500ms ease-out;
 }

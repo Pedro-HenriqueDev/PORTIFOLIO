@@ -4,11 +4,19 @@ export default {
   data() {
 
     return {
+      element: '',
       navbarShow: false
     }
   },
+  created() {
+    const elem = document.querySelector('.node')
+
+    console.log(elem)
+  },
   components: {
     Navbar,
+  },
+  methods: {
   }
 };
 </script>
@@ -30,12 +38,12 @@ export default {
           text-white
         "
       >
-        <div class="flex flex-col ml-10 mt-10">
+        <div class="flex flex-col ml-10 lg:mt-14 md:mt-20 mt-20">
           <div class="title -translate-x-6">
             Pedro Henrique
             <div class="animate-bounce subtitle text-right m-3 text-2xl">Web Developer Jr</div>
           </div>
-          <div class="flex justify-center gap-4 mt-3 w-1/2">
+          <div class="node flex justify-center gap-4 mt-3 w-1/2">
               <img
               class="icons-animated translate-y-10 w-10"
               style="animation-delay: 100ms;"
