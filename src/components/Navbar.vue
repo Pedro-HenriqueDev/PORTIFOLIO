@@ -68,7 +68,7 @@ export default {
     </nav>
 
       <div v-show="navbarSm" class="float-right" @click="showSm">
-        <img class="w-10" src="../assets/img/cardapio (1).png" alt="" />
+        <img class="w-10" src="../assets/img/menu.png" alt="" />
       </div>
 
       <div v-show="navbarSm">

@@ -60,7 +60,7 @@ export default {
           </div>
         </div>
         <div class="flex text-2xl">
-          <div class=""><img class="md:w-96 w-80" src="../assets/img/bighead.svg"></div>
+          <div class=""><img class="md:w-96 w-80" src="../assets/img/bighead.svg"/></div>
         </div>
       </div>
     </div>
