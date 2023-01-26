@@ -60,14 +60,9 @@ export default {
       <a href="#" class="cursor-pointer item-menu">Começo</a>
       <a href="#sobremim" class="cursor-pointer item-menu">Sobre mim</a>
       <a href="#objetivos" class="cursor-pointer item-menu">Objetivos</a>
-
-      <div class="flex cursor-pointer gap-3 float-right">
-        <a href="https://github.com/Pedro-HenriqueDev" target="_blank"><i class="block text-3xl devicon-github-original"></i></a>
-        <a href="https://www.linkedin.com/in/pedro-henrique-6ab634229/" target="_blank"><i class="block text-3xl devicon-linkedin-plain"></i></a>
-      </div>
     </nav>
 
-      <div v-show="navbarSm" class="float-right" @click="showSm">
+      <div v-show="navbarSm" class="cursor-pointer float-right" @click="showSm">
         <img class="w-10" src="../assets/img/menu.png" alt="" />
       </div>
 
@@ -153,7 +148,7 @@ export default {
   color: #fffffe;
 }
 .navbar-sm {
-  background: rgba(0, 0, 0, 0.281);
+  background: rgba(0, 0, 0, 0.568);
   position: fixed;
   right: 0;
   height: 100vh;
