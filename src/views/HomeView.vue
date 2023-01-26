@@ -108,7 +108,7 @@ export default {
           <h2 class="text-3xl text-color font-semibold">Sobre mim</h2>
           <div class="lg:mx-10 mt-5">
             <p>
-              Tenho atualmente 18 anos e estudo programaçao a 1 ano e 6 meses.
+              Tenho atualmente 18 anos e estudo programação a 1 ano e 6 meses.
               Moro na Bahia e estou cursando Analise e Desenvolvimento de
               Sistemas. Tenho muito apreço pela tecnologia e pela forma que ela
               resolve os problemas do nosso dia-a-dia.
@@ -127,15 +127,15 @@ export default {
             <ul class="list-disc">
               <li>
                 Tenho como Objetivo o Desenvolvedor FullStack, desenvolvendo
-                aplicaçoes Web front-end, back-end e tambem Mobile.
+                aplicações Web front-end, back-end e também Mobile.
               </li>
               <li>
-                Meu principal Objetivo hoje er me aperfeiçoar no desenvolvimento
-                Back-end com Node.js.
+                Meu principal Objetivo hoje é me aperfeiçoar no desenvolvimento
+                Back-end com Node.js.
               </li>
               <li>
-                Desejo tambem entrar no mercado de trabalho e promover o
-                crescimento mutuo entre mim e a empresa
+                Desejo também entrar no mercado de trabalho e promover o
+                crescimento mutuo entre mim e a empresa
               </li>
             </ul>
           </div>
@@ -148,7 +148,7 @@ export default {
           <div>
             <h3 class="text-xl">Habilidades Profissionais</h3>
             <ul class="mt-5 gap-3 flex flex-col items-center text-sm">
-              <li>Boa Logica de Programaçao</li>
+              <li>Boa lógica de programação</li>
               <li>Autodisciplina</li>
               <li>Aprendizado contínuo</li>
               <li>Adaptabilidade</li>
