@@ -96,7 +96,7 @@ export default {
         </div>
         <div class="flex text-2xl">
           <div class="">
-            <img class="lg:w-96 md:w-80 w-64" src="../assets/img/bighead.svg" />
+            <img class="lg:w-96 md:w-80 w-64 rounded-full" src="../assets/img/8750fc89-cb12-4cd2-bc23-1db6ec6cdbb8.jpeg" />
           </div>
         </div>
       </div>
