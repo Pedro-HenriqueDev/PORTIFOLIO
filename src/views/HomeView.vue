@@ -240,9 +240,9 @@ export default {
             HTML e CSS
           </button>
         </div>
-        <div class="w-full mt-5 flex justify-center gap-5 flex-wrap">
-          <div v-for="project in projectsDesire" :key="project.id">
-            <div class="w-96 h-60">
+        <div class="w-full mt-5 flex justify-center items-center gap-5 flex-wrap">
+          <div class="flex justify-center items-center gap-5 flex-wrap" v-for="(project) in projectsDesire" :key="project.id">
+            <div class="card-custom h-60">
               <a target="blank" :href="project.svn_url"
                 class="h-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 class="break-words mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -308,6 +308,15 @@ export default {
 
 .heightConteudo {
   height: 85%;
+}
+
+.card-custom {
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .card-custom {
+    width: 380px;
+  }
 }
 
 @keyframes fade {
