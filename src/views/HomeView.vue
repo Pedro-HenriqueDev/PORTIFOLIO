@@ -58,7 +58,7 @@ export default {
     <div class="container-principal color-theme">
       <Navbar :hidden="navbarShow" />
       <div
-        class="md:text-6xl lg:text-7xl lg:flex-row lg:justify-around text-5xl mx-5 flex flex-col items-center heightConteudo font-bold text-white">
+        class="md:text-5xl lg:text-6xl md:flex-row md:justify-around text-5xl mx-5 flex flex-col items-center heightConteudo font-bold text-white">
         <div class="flex flex-col ml-10 lg:mt-14 md:mt-20 mt-24">
           <div class="title -translate-x-6">
             Pedro Henrique
@@ -96,7 +96,7 @@ export default {
         </div>
         <div class="flex text-2xl">
           <div class="">
-            <img class="lg:w-96 md:w-72 w-64 rounded-full" src="../assets/img/8750fc89-cb12-4cd2-bc23-1db6ec6cdbb8.jpeg" />
+            <img class="lg:w-96 md:w-80 w-64 rounded-full" src="../assets/img/8750fc89-cb12-4cd2-bc23-1db6ec6cdbb8.jpeg" />
           </div>
         </div>
       </div>
@@ -289,7 +289,7 @@ export default {
 
 .container-principal {
   width: 100%;
-  height: 115vh;
+  height: 100vh;
 }
 
 .color-theme {
@@ -316,6 +316,14 @@ export default {
 @media (max-width: 576px) {
   .container-principal {
     height: 145vh;
+  }
+}
+@media (min-width: 576px) {
+  .container-principal {
+  height: 115vh;
+}
+  .card-custom {
+    width: 380px;
   }
 }
 @media (min-width: 768px) {
