@@ -5,6 +5,7 @@ import Skills from "../components/Skills.vue"
 import AboutMe from "../components/AboutMe.vue"
 import Projects from "../components/Projects.vue"
 import Icons from "../components/Icons.vue"
+import MainProjects from "../components/MainProjects.vue"
 
 export default {
   data() {
@@ -19,13 +20,14 @@ export default {
     Projects,
     Skills,
     AboutMe,
-    Icons
+    Icons,
+    MainProjects
   }
 };
 </script>
 
 <template>
-  <div class="pb-20 conteudo">
+  <div class="conteudo">
     <div class="container-principal color-theme">
       <Navbar :hidden="navbarShow" />
       <div
@@ -71,6 +73,7 @@ export default {
     <div class="main">
       <AboutMe />
       <Skills />
+      <MainProjects />
       <Projects />
     </div>
   </div>
