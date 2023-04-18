@@ -36,7 +36,7 @@ export default {
 </script>
 
 <template>
-  <div class="w-full">
+  <div class="w-full z-20">
     <nav
       class="
         navbar

@@ -9,7 +9,7 @@
           <div class="lg:mx-10 mt-5">
             <p>
               Tenho atualmente 18 anos e estudo programação a 1 ano e 6 meses.
-              Moro na Bahia e estou cursando Analise e Desenvolvimento de
+              Moro na Bahia e estou cursando Análise e Desenvolvimento de
               Sistemas. Tenho muito apreço pela tecnologia e pela forma que ela
               resolve os problemas do nosso dia-a-dia.
             </p>
@@ -24,20 +24,15 @@
           <div id="objetivos" class="ancora"></div>
           <h2 class="text-3xl text-color font-semibold">Objetivos</h2>
           <div class="lg:mx-10 mt-5">
-            <ul class="list-disc">
-              <li>
-                Tenho como Objetivo o Desenvolvedor FullStack, desenvolvendo
-                aplicações Web front-end, back-end e também Mobile.
-              </li>
-              <li>
+                Tenho como Objetivo ser um Desenvolvedor FullStack, desenvolvendo
+                aplicações Web, front-end, back-end e também Mobile.
+              <br/><br/>
                 Meu principal Objetivo hoje é me aperfeiçoar no desenvolvimento
-                Back-end com Node.js.
-              </li>
-              <li>
+                Back-end com Node.js.
+              <br/><br/>
                 Desejo também entrar no mercado de trabalho e promover o
-                crescimento mutuo entre mim e a empresa
-              </li>
-            </ul>
+                crescimento mútuo entre mim e a empresa
+              
           </div>
         </div>
       </div>
