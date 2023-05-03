@@ -7,8 +7,7 @@
         <h2 class="text-3xl text-gray-100 font-semibold">Habilidades</h2>
         <div class="text-gray-100 lg:flex-row flex-col flex lg:items-start items-center justify-around mx-10 mt-10">
           <div>
-            <h3 class="text-xl">Habilidades Profissionais</h3>
-            <ul class="mt-5 gap-3 flex flex-col items-center text-sm">
+            <ul class="mt-5 gap-3 flex flex-col text-sm list-disc">
               <li>Boa lógica de programação</li>
               <li>Autodisciplina</li>
               <li>Aprendizado contínuo</li>

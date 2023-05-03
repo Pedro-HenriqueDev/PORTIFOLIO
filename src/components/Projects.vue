@@ -21,6 +21,7 @@ export default {
     this.projects = myrepos.data;
     this.projectsDesire = myrepos.data;
     this.numberOfProjects = myrepos.data.length
+    console.log(myrepos)
   },
   methods: {
     desiredProjects(languageDesire) {
@@ -83,7 +84,7 @@ export default {
             </div>
             <div class="w-full mt-5 flex justify-center items-center gap-5 flex-wrap">
             <div class="flex justify-center items-center gap-5 flex-wrap" v-for="(project) in projectsDesire" :key="project.id">
-                <Card :link="project.svn_url" :name="project.name" :language="project.language" />
+                <Card :link="project.svn_url" :name="project.name" :language="project.language" :description="project.description" />
             </div>
             </div>
         </div>
