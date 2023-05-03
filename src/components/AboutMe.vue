@@ -9,14 +9,14 @@
           <div class="lg:mx-10 mt-5">
             <p>
               Tenho atualmente 18 anos e estudo programação a 1 ano e 6 meses.
-              Moro na Bahia e estou cursando Análise e Desenvolvimento de
+              Moro no Estado da Bahia e estou cursando Análise e Desenvolvimento de
               Sistemas. Tenho muito apreço pela tecnologia e pela forma que ela
               resolve os problemas do nosso dia-a-dia.
             </p>
             <br />
             <p>
-              Me profissionalizo hoje no Desenvolvimento Web com tecnologias
-              altamente usadas no mercado, como Node.js e Typescript.
+              Me profissionalizo hoje ao Desenvolvimento Web com tecnologias
+              altamente usadas no mercado hoje, como Node.js e Typescript.
             </p>
           </div>
         </div>
