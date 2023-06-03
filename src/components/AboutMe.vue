@@ -8,15 +8,13 @@
           <h2 class="text-3xl text-color font-semibold">Sobre mim</h2>
           <div class="lg:mx-10 mt-5">
             <p>
-              Tenho atualmente 18 anos e estudo programação a 1 ano e 6 meses.
-              Moro no Estado da Bahia e estou cursando Análise e Desenvolvimento de
-              Sistemas. Tenho muito apreço pela tecnologia e pela forma que ela
-              resolve os problemas do nosso dia-a-dia.
+              Tenho 18 anos, moro no Estado da Bahia e estou cursando Análise e Desenvolvimento de
+              Sistemas.
             </p>
-            <br />
+            <br/>
             <p>
-              Me profissionalizo hoje ao Desenvolvimento Web com tecnologias
-              altamente usadas no mercado hoje, como Node.js e Typescript.
+              Estudo programação a 2 anos e Tenho muito apreço pela tecnologia e pela forma que ela
+              resolve os nossos problemas.
             </p>
           </div>
         </div>
@@ -24,14 +22,10 @@
           <div id="objetivos" class="ancora"></div>
           <h2 class="text-3xl text-color font-semibold">Objetivos</h2>
           <div class="lg:mx-10 mt-5">
-                Tenho como Objetivo ser um Desenvolvedor FullStack, desenvolvendo
-                aplicações Web, front-end, back-end e também Mobile.
+                Meu principal Objetivo hoje é me especializar ao desenvolvimento
+                Back-end
               <br/><br/>
-                Meu principal Objetivo hoje é me aperfeiçoar no desenvolvimento
-                Back-end com Node.js.
-              <br/><br/>
-                Desejo também entrar no mercado de trabalho e promover o
-                crescimento mútuo entre mim e a empresa
+                Desejo também entrar no mercado de trabalho e começar a aplicar tudo que venho aprendendo esses anos
               
           </div>
         </div>

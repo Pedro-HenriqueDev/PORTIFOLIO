@@ -6,6 +6,9 @@
 </template>
 
 <style>
+body {
+  background: #d4d8f0;
+}
 .ancora {
   position: absolute;
   width: 1px;
