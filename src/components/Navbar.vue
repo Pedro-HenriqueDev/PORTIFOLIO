@@ -55,11 +55,11 @@ export default {
         !navbarSm ? 'flex' : 'hidden',
       ]"
     >
-      <a href="#habilidades" class="cursor-pointer item-menu">Habilidades</a>
-      <a href="#projetos" class="cursor-pointer item-menu">Projeto</a>
+
       <a href="#" class="cursor-pointer item-menu">Começo</a>
       <a href="#sobremim" class="cursor-pointer item-menu">Sobre mim</a>
-      <a href="#objetivos" class="cursor-pointer item-menu">Objetivos</a>
+      <a href="#habilidades" class="cursor-pointer item-menu">Habilidades</a>
+      <a href="#projetos" class="cursor-pointer item-menu">Projeto</a>
     </nav>
 
       <div v-show="navbarSm" class="cursor-pointer float-right" @click="showSm">
@@ -72,17 +72,14 @@ export default {
           <div
             class="w-full h-14 flex justify-end items-center mr-5">
             <div class="w-full flex flex-col items-center text-center gap-8 mt-80 p-10">
-              <div class="w-1/2">
-                <a href="#habilidades" class="item-menu cursor-pointer">Habilidades</a>
-              </div>
-              <div class="w-1/2"><a href="#projetos" class="item-menu cursor-pointer">Projeto</a></div>
               <div class="w-1/2"><a href="#" class="item-menu cursor-pointer">Começo</a></div>
               <div class="w-1/2">
                 <a href="#sobremim" class="item-menu cursor-pointer">Sobre mim</a>
               </div>
               <div class="w-1/2">
-                <a href="#objetivos" class="item-menu cursor-pointer">Objetivos</a>
+                <a href="#habilidades" class="item-menu cursor-pointer">Habilidades</a>
               </div>
+              <div class="w-1/2"><a href="#projetos" class="item-menu cursor-pointer">Projeto</a></div>
 
               <div
                 class="w-full h-auto justify-center flex cursor-pointer gap-3"

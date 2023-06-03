@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 import Skills from "../components/Skills.vue"
 import AboutMe from "../components/AboutMe.vue"
-import Projects from "../components/Projects.vue"
 import Icons from "../components/Icons.vue"
 import MainProjects from "../components/MainProjects.vue"
 
@@ -17,7 +16,6 @@ export default {
   components: {
     Navbar,
     Footer,
-    Projects,
     Skills,
     AboutMe,
     Icons,
@@ -36,14 +34,14 @@ export default {
           <div class="title -translate-x-6">
             Pedro Henrique
             <div class="animate-bounce subtitle text-right m-3 text-2xl">
-              Web Developer Jr
+              Dev Back-end
             </div>
           </div>
           <div class="flex justify-center gap-4 mt-3 w-100 md:w-1/2 md:ml-7">
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" DelayMs="100" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" DelayMs="200" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" DelayMs="300" />
-            <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" DelayMs="400" />
+            <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" DelayMs="400" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" DelayMs="500" />
           </div>
           <div class="w-full mt-10">
@@ -74,17 +72,12 @@ export default {
       <AboutMe />
       <Skills />
       <MainProjects />
-      <Projects />
     </div>
   </div>
   <Footer />
 </template>
 
 <style scoped>
-
-.conteudo {
-  background: #d4d8f0;
-}
 
 .text-color {
   color: #121629;

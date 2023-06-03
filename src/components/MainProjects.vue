@@ -18,8 +18,9 @@ export default {
 </script>
 
 <template>
+    <div id="projetos" class="projetos"></div>
     <h2 class="text-3xl text-color font-semibold m-10 md:m-10 md:w-1/2">
-        Destaques
+        Projetos
     </h2>
     <div class="w-100 m-10 pb-10">
         <div class="gap-4">
