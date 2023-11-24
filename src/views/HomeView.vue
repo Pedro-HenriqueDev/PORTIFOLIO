@@ -63,7 +63,7 @@ export default {
         </div>
         <div class="flex text-2xl">
           <div class="">
-            <img class="lg:w-96 md:w-80 w-64 rounded-full" src="../assets/img/perfil-img.png" />
+            <img class="border-img lg:w-96 md:w-80 w-64 rounded-full" src="https://avatars.githubusercontent.com/u/82292364" />
           </div>
         </div>
       </div>
@@ -78,6 +78,9 @@ export default {
 </template>
 
 <style scoped>
+.border-img {
+  border: 5px solid;
+}
 
 .text-color {
   color: #121629;
