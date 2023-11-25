@@ -52,7 +52,7 @@ export default {
                 Siga-me no Github
               </button>
             </a>
-            <a target="_blanck" href="https://www.linkedin.com/in/pedro-henrique-6ab634229/">
+            <a target="_blanck" href="https://www.linkedin.com/in/pedro-araujo-dev/">
               <button type="button"
                 class="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
                 <i class="block mr-2 text-lg devicon-linkedin-plain"></i>
