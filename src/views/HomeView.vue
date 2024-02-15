@@ -39,7 +39,7 @@ export default {
           </div>
           <div class="flex justify-center gap-4 mt-3 w-100 md:w-1/2 md:ml-7">
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" DelayMs="100" />
-            <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" DelayMs="200" />
+            <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" DelayMs="200" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" DelayMs="300" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" DelayMs="400" />
             <Icons linkIcon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" DelayMs="500" />

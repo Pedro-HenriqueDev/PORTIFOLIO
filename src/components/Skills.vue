@@ -22,7 +22,7 @@
                 <img class="w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
               </li>
               <li>
-                <img class="w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" />
+                <img class="w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" />
               </li>
               <li>
                 <img class="w-10"
@@ -62,7 +62,7 @@
               </li>
               <li>
                 <img class="w-10"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
               </li>
             </ul>
           </div>
