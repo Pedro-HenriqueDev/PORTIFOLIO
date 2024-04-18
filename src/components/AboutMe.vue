@@ -8,13 +8,14 @@
           <h2 class="text-3xl text-color font-semibold">Sobre mim</h2>
           <div class="lg:mx-10 mt-5">
             <p>
-              Tenho 18 anos, moro no Estado da Bahia e estou cursando Análise e Desenvolvimento de
+              Tenho 19 anos, moro no Estado da Bahia e estou cursando Análise e Desenvolvimento de
               Sistemas.
             </p>
             <br/>
             <p>
-              Estudo programação a 2 anos e Tenho muito apreço pela tecnologia e pela forma que ela
-              resolve os nossos problemas.
+              Atualmente prestando serviços relacionados a área de TI para empresas que desejam criar seus
+próprios Web Sites. Trabalho hoje utilizando Javascript, tanto para o front-end com Vue.js quanto para
+o back-end com Node.js. Estou na área há 3 anos .
             </p>
           </div>
         </div>
